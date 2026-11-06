@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#08080b">
+<meta name="description" content="NEXLIX - عالمك الترفيهي. مباريات وتلفزيون وأفلام ومسلسلات.">
+<title>NEXLIX | شاهد أكثر · عش أكثر</title>
+<link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+
+<div class="ambient ambient-one"></div>
+<div class="ambient ambient-two"></div>
+
+<header class="site-header">
+  <a class="brand" href="#home">
+    <span class="brand-mark">N</span>
+    <span class="brand-word">NEX<span>LIX</span></span>
+  </a>
+
+  <nav class="desktop-nav">
+    <a class="active" href="#home">الرئيسية</a>
+    <a href="#catalog" data-nav-filter="مباريات مباشرة">مباريات</a>
+    <a href="#catalog" data-nav-filter="تلفزيون">تلفزيون</a>
+    <a href="#catalog" data-nav-filter="أفلام">أفلام</a>
+    <a href="#catalog" data-nav-filter="مسلسلات">مسلسلات</a>
+  </nav>
+
+  <div class="header-actions">
+    <label class="search-box">
+      <input id="searchInput" type="search" placeholder="ابحث عن فيلم أو مسلسل أو مباراة...">
+      <span>⌕</span>
+    </label>
+    <button class="icon-button" id="profileBtn" aria-label="الملف الشخصي">◉</button>
+    <button class="icon-button mobile-menu" id="menuBtn" aria-label="القائمة">☰</button>
+  </div>
+</header>
+
+<div class="mobile-nav" id="mobileNav">
+  <a href="#home">الرئيسية</a>
+  <a href="#catalog" data-nav-filter="مباريات مباشرة">مباريات</a>
+  <a href="#catalog" data-nav-filter="تلفزيون">تلفزيون</a>
+  <a href="#catalog" data-nav-filter="أفلام">أفلام</a>
+  <a href="#catalog" data-nav-filter="مسلسلات">مسلسلات</a>
+</div>
+
+<main id="home" class="page-shell">
+
+<section class="hero">
+  <div class="hero-copy">
+    <span class="eyebrow"><i></i> عالمك الترفيهي في مكان واحد</span>
+    <h1>كل ما تحب<br>تجده هنا في <strong>NEX<span>LIX</span></strong></h1>
+    <p>مباريات مباشرة · تلفزيون · أفلام · مسلسلات</p>
+    <div class="hero-buttons">
+      <a class="primary-btn" href="#sections">ابدأ المشاهدة الآن <b>▶</b></a>
+      <a class="ghost-btn" href="#discover">اكتشف المحتوى</a>
+    </div>
+    <div class="hero-dots">
+      <button class="dot selected" data-slide="0"></button>
+      <button class="dot" data-slide="1"></button>
+      <button class="dot" data-slide="2"></button>
+      <button class="dot" data-slide="3"></button>
+    </div>
+  </div>
+
+  <div class="hero-art art-stadium">
+    <div class="stadium-lights"></div>
+    <div class="stadium-ring"></div>
+    <div class="hero-orb orb-one"></div>
+    <div class="hero-orb orb-two"></div>
+    <div class="hero-player">N</div>
+    <div class="hero-art-label">
+      <span>LIVE EXPERIENCE</span>
+      <b>NEX<span>LIX</span></b>
+    </div>
+  </div>
+  <div class="hero-glow"></div>
+</section>
+
+<section class="category-strip" id="sections">
+  <a href="#catalog" class="category-pill" data-category="matches">
+    <span class="category-icon">⚽</span>
+    <span><b>مباريات مباشرة</b><small>أهم المواجهات والأحداث الرياضية</small></span>
+    <i>‹</i>
+  </a>
+  <a href="#catalog" class="category-pill" data-category="tv">
+    <span class="category-icon">▣</span>
+    <span><b>تلفزيون</b><small>قنوات تلفزيونية متنوعة</small></span>
+    <i>‹</i>
+  </a>
+  <a href="#catalog" class="category-pill" data-category="movies">
+    <span class="category-icon">🎬</span>
+    <span><b>أفلام</b><small>أحدث الأفلام من كل الأنواع</small></span>
+    <i>‹</i>
+  </a>
+  <a href="#catalog" class="category-pill" data-category="series">
+    <span class="category-icon">🍿</span>
+    <span><b>مسلسلات</b><small>مسلسلاتك المفضلة</small></span>
+    <i>‹</i>
+  </a>
+</section>
+
+<section class="section-block" id="discover">
+  <div class="section-heading">
+    <div>
+      <span class="section-kicker">اكتشف عالم NEXLIX</span>
+      <h2>أقسام المنصة <em></em></h2>
+    </div>
+    <span class="section-note">كل ما تحبه، في مكان واحد</span>
+  </div>
+
+  <div class="category-cards">
+    <a href="#catalog" class="category-card card-matches" data-category="matches">
+      <div class="card-art-symbol">⚽</div>
+      <div class="card-bottom"><div><h3>مباريات مباشرة</h3><p>أهم المواجهات الرياضية</p></div><span class="round-arrow">←</span></div>
+    </a>
+    <a href="#catalog" class="category-card card-tv" data-category="tv">
+      <div class="card-art-symbol">▣</div>
+      <div class="card-bottom"><div><h3>تلفزيون</h3><p>قنواتك المفضلة</p></div><span class="round-arrow">←</span></div>
+    </a>
+    <a href="#catalog" class="category-card card-movies" data-category="movies">
+      <div class="card-art-symbol">🎬</div>
+      <div class="card-bottom"><div><h3>أفلام</h3><p>عالم السينما</p></div><span class="round-arrow">←</span></div>
+    </a>
+    <a href="#catalog" class="category-card card-series" data-category="series">
+      <div class="card-art-symbol">🍿</div>
+      <div class="card-bottom"><div><h3>مسلسلات</h3><p>حكايات لا تنتهي</p></div><span class="round-arrow">←</span></div>
+    </a>
+  </div>
+</section>
+
+<section class="section-block" id="catalog">
+  <div class="section-heading">
+    <div>
+      <span class="section-kicker">مختار لك</span>
+      <h2>الأكثر مشاهدة <em></em></h2>
+    </div>
+    <a href="#catalog" class="see-all" id="showAll">عرض الكل <span>←</span></a>
+  </div>
+
+  <div class="filter-row">
+    <button class="filter active" data-filter="الكل">الكل</button>
+    <button class="filter" data-filter="مباريات مباشرة">مباريات</button>
+    <button class="filter" data-filter="تلفزيون">تلفزيون</button>
+    <button class="filter" data-filter="أفلام">أفلام</button>
+    <button class="filter" data-filter="مسلسلات">مسلسلات</button>
+  </div>
+
+  <div class="content-grid" id="contentGrid">
+
+    <article class="content-card" data-kind="مباريات مباشرة" data-title="ليلة في الملعب">
+      <div class="poster poster-stadium">
+        <span class="poster-shine"></span><span class="poster-brand">NEX<span>LIX</span></span>
+        <button class="play-button" aria-label="تشغيل">▶</button>
+        <span class="poster-tag">مباريات مباشرة</span>
+      </div>
+      <div class="content-info"><h3>ليلة في الملعب</h3><p>رياضة • مباشر</p></div>
+    </article>
+
+    <article class="content-card" data-kind="أفلام" data-title="رحلة إلى المجهول">
+      <div class="poster poster-adventure">
+        <span class="poster-shine"></span><span class="poster-brand">NEX<span>LIX</span></span>
+        <button class="play-button" aria-label="تشغيل">▶</button>
+        <span class="poster-tag">أفلام</span>
+      </div>
+      <div class="content-info"><h3>رحلة إلى المجهول</h3><p>مغامرة • 2026</p></div>
+    </article>
+
+    <article class="content-card" data-kind="مسلسلات" data-title="المدينة">
+      <div class="poster poster-city">
+        <span class="poster-shine"></span><span class="poster-brand">NEX<span>LIX</span></span>
+        <button class="play-button" aria-label="تشغيل">▶</button>
+        <span class="poster-tag">مسلسلات</span>
+      </div>
+      <div class="content-info"><h3>المدينة</h3><p>دراما • موسم 1</p></div>
+    </article>
+
+    <article class="content-card" data-kind="تلفزيون" data-title="شاشة العالم">
+      <div class="poster poster-tv">
+        <span class="poster-shine"></span><span class="poster-brand">NEX<span>LIX</span></span>
+        <button class="play-button" aria-label="تشغيل">▶</button>
+        <span class="poster-tag">تلفزيون</span>
+      </div>
+      <div class="content-info"><h3>شاشة العالم</h3><p>قنوات متنوعة</p></div>
+    </article>
+
+    <article class="content-card" data-kind="أفلام" data-title="المواجهة">
+      <div class="poster poster-action">
+        <span class="poster-shine"></span><span class="poster-brand">NEX<span>LIX</span></span>
+        <button class="play-button" aria-label="تشغيل">▶</button>
+        <span class="poster-tag">أفلام</span>
+      </div>
+      <div class="content-info"><h3>المواجهة</h3><p>أكشن • 2026</p></div>
+    </article>
+
+    <article class="content-card" data-kind="مسلسلات" data-title="ما وراء الحكاية">
+      <div class="poster poster-mystery">
+        <span class="poster-shine"></span><span class="poster-brand">NEX<span>LIX</span></span>
+        <button class="play-button" aria-label="تشغيل">▶</button>
+        <span class="poster-tag">مسلسلات</span>
+      </div>
+      <div class="content-info"><h3>ما وراء الحكاية</h3><p>تشويق • موسم 2</p></div>
+    </article>
+
+    <article class="content-card" data-kind="مباريات مباشرة" data-title="وقت إضافي">
+      <div class="poster poster-stadium2">
+        <span class="poster-shine"></span><span class="poster-brand">NEX<span>LIX</span></span>
+        <button class="play-button" aria-label="تشغيل">▶</button>
+        <span class="poster-tag">مباريات مباشرة</span>
+      </div>
+      <div class="content-info"><h3>وقت إضافي</h3><p>رياضة • مباشر</p></div>
+    </article>
+
+    <article class="content-card" data-kind="مسلسلات" data-title="ليالي العاصمة">
+      <div class="poster poster-night">
+        <span class="poster-shine"></span><span class="poster-brand">NEX<span>LIX</span></span>
+        <button class="play-button" aria-label="تشغيل">▶</button>
+        <span class="poster-tag">مسلسلات</span>
+      </div>
+      <div class="content-info"><h3>ليالي العاصمة</h3><p>دراما • 8 حلقات</p></div>
+    </article>
+
+  </div>
+  <div id="searchResults" class="search-results" aria-live="polite"></div>
+</section>
+
+<section class="feature-banner">
+  <div>
+    <span class="section-kicker">تجربة مشاهدة مختلفة</span>
+    <h2>شاهد أكثر. <strong>عش أكثر.</strong></h2>
+    <p>واجهة واحدة تجمع عالم الترفيه الذي تحبه.</p>
+  </div>
+  <a href="#home" class="primary-btn">اكتشف NEXLIX <b>←</b></a>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <a class="brand" href="#home">
+    <span class="brand-mark">N</span>
+    <span class="brand-word">NEX<span>LIX</span></span>
+  </a>
+  <p>شاهد أكثر · عش أكثر</p>
+  <small>© 2026 NEXLIX. جميع الحقوق محفوظة.</small>
+</footer>
+
+<nav class="mobile-bottom">
+  <a class="chosen" href="#home"><b>⌂</b>الرئيسية</a>
+  <a href="#catalog" data-nav-filter="مباريات مباشرة"><b>▣</b>مباشر</a>
+  <a href="#discover"><b>↓</b>الأقسام</a>
+  <a href="#profile" id="mobileProfile"><b>⚙</b>حسابي</a>
+</nav>
+
+<script src="static/js/app.js"></script>
+</body>
+</html>
