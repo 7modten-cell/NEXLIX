@@ -1,0 +1,7 @@
+{% if query %}
+<div class="search-panel">
+  <div class="search-panel-head"><b>نتائج البحث</b><button onclick="document.getElementById('searchResults').innerHTML='';document.getElementById('searchInput').value=''">إغلاق ×</button></div>
+  {% if results %}<div class="search-list">{% for item in results %}<div><b>{{ item.title }}</b><small>{{ item.category }} · {{ item.meta }}</small></div>{% endfor %}</div>
+  {% else %}<p class="empty-search">لا توجد نتائج مطابقة لعبارة البحث.</p>{% endif %}
+</div>
+{% endif %}
